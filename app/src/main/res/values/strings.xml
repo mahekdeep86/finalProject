@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Project</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="use_news_activity">Click the -Read Online- menu item to search news articles online or Read offline to read saved news articles.
+    Click on any news article to view more details about it</string>
+    <string name="cancel">Cancel</string>
+    <string name="activity_version_1">Activity Version: 1</string>
+    <string name="save_article">SAVE ARTICLE</string>
+    <string name="enter_search_term">Enter Search Term</string>
+    <string name="saved_definitions">Saved Definitions</string>
+    <string name="save_flight">Save Flight</string>
+    <string name="flight_activity">Flight Activity</string>
+    <string name="save">SAVE</string>
+    <string name="do_you_really_want_to_delete_the_item">Do you really want to delete the item?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="search">Search</string>
+    <string name="enter_airport_code">Enter airport code</string>
+    <string name="enter_a_search_term">Enter a search term</string>
+    <string name="title">title</string>
+    <string name="delete">Delete</string>
+</resources>

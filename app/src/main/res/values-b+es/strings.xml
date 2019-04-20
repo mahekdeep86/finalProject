@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Proyecto</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hola fragmento en blanco</string>
+    <string name="use_news_activity">Haga clic en el elemento del menú Leer en línea para buscar artículos de noticias en línea o Leer sin conexión para leer los artículos de noticias guardados.
+    Haga clic en cualquier artículo de noticias para ver más detalles al respecto</string>
+    <string name="cancel">Cancelar</string>
+    <string name="activity_version_1">Versión de la actividad: 1</string>
+    <string name="save_article">Guardar el articulo</string>
+    <string name="enter_search_term">Ingrese el término de búsqueda</string>
+    <string name="saved_definitions">Definiciones guardadas</string>
+    <string name="save_flight">Salvar vuelo</string>
+    <string name="flight_activity">Actividad de vuelo</string>
+    <string name="save">SALVAR</string>
+    <string name="do_you_really_want_to_delete_the_item">¿Realmente quieres eliminar el elemento?</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="search">Buscar</string>
+    <string name="enter_airport_code">Ingrese el código del aeropuerto</string>
+    <string name="enter_a_search_term">Introduzca un término de búsqueda</string>
+    <string name="title">título</string>
+    <string name="delete">Borrar</string>
+</resources>
