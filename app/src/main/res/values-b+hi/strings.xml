@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">परियोजना</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">हैलो खाली टुकड़ा</string>
+    <string name="use_news_activity">सहेजे गए समाचार लेख पढ़ने के लिए ऑनलाइन समाचार पढ़ने के लिए ऑनलाइन पढ़ें-मेनू आइटम पर क्लिक करें या ऑफ़लाइन पढ़ें
+    इसके बारे में अधिक विवरण देखने के लिए किसी भी समाचार लेख पर क्लिक करें</string>
+    <string name="cancel">रद्द करना</string>
+    <string name="activity_version_1">गतिविधि संस्करण: १</string>
+    <string name="save_article">लेख को बचाओ</string>
+    <string name="enter_search_term">खोज शब्द दर्ज करें</string>
+    <string name="saved_definitions">सहेजे गए परिभाषाएँ</string>
+    <string name="save_flight">हवाई जहाज को बचाओ</string>
+    <string name="dictionary_activity">शब्दकोश गतिविधि</string>
+    <string name="news_feed_activity">समाचार फ़ीड गतिविधि</string>
+    <string name="flight_activity">उड़ान गतिविधि</string>
+    <string name="article_search_activity">अनुच्छेद खोज गतिविधि</string>
+    <string name="save">बचाना</string>
+    <string name="do_you_really_want_to_delete_the_item">क्या आप वास्तव में आइटम को हटाना चाहते हैं?</string>
+    <string name="yes">हाँ</string>
+    <string name="no">नहीं</string>
+    <string name="search">खोज</string>
+    <string name="enter_airport_code">एयरपोर्ट कोड दर्ज करें</string>
+    <string name="enter_a_search_term">एक खोज शब्द दर्ज करें</string>
+    <string name="search_news_articles">खोज समाचार लेख</string>
+    <string name="title">शीर्षक</string>
+    <string name="delete">हटाना</string>
+</resources>
