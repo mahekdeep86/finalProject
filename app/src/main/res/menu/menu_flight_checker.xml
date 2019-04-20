@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item_saved_flights"
+        android:title="Saved Flights"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/item_online_flights"
+        android:title="Check Online"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/item_help"
+        android:title="Help"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_airport_code"
+        />
+    <EditText
+        android:id="@+id/query_edit_text"
+        android:layout_width="250dp"
+        android:layout_below="@+id/label"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/label"
+        android:layout_toRightOf="@+id/query_edit_text"
+        android:layout_toEndOf="@+id/query_edit_text"
+        android:text="@string/search"/>
+
+    <ProgressBar
+        android:id="@+id/simple_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/query_edit_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp" />
+
+    <ListView
+        android:id="@+id/listViewFlights"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/simple_progress_bar" />
+</RelativeLayout>

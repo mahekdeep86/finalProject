@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:id="@+id/dictionary_activity"
+                android:layout_width="190dp"
+                android:layout_height="match_parent"
+                android:background="@color/cyan_200"
+                android:gravity="center_vertical"
+                android:padding="3dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:maxLines="2"
+                    android:singleLine="false"
+                    android:text="@string/dictionary_activity"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/news_feed_activity"
+                android:layout_width="194dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_toEndOf="@+id/dictionary_activity"
+                android:layout_toRightOf="@+id/dictionary_activity"
+                android:background="@color/light_blue_200"
+                android:gravity="center_vertical"
+                android:padding="3dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:maxLines="2"
+                    android:singleLine="false"
+                    android:text="@string/news_feed_activity"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:id="@+id/flight_activity"
+                android:layout_width="190dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@color/light_blue_200"
+                android:gravity="center_vertical"
+                android:padding="3dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:maxLines="2"
+                    android:singleLine="false"
+                    android:text="@string/flight_activity"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/article_search_activity"
+                android:layout_width="194dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_toEndOf="@+id/flight_activity"
+                android:layout_toRightOf="@+id/flight_activity"
+                android:background="@color/cyan_200"
+                android:gravity="center_vertical"
+                android:padding="3dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:maxLines="2"
+                    android:singleLine="false"
+                    android:text="@string/article_search_activity"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
